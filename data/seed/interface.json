@@ -1,0 +1,95 @@
+[
+  {
+    "id": "ui_start_menu",
+    "type": "Interface",
+    "name": "Start Menu",
+    "color": "Blue",
+    "description": "The player's Blue entry door.",
+    "simpleMeaning": "Welcome in. The road begins here.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [],
+    "uiUse": [
+      "start_menu"
+    ],
+    "gateway": [
+      "Beginner",
+      "Game"
+    ],
+    "recursionLevel": 1,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "ui_help_layer",
+    "type": "Interface",
+    "name": "Help Layer",
+    "color": "Pink",
+    "description": "Pink question tool for details.",
+    "simpleMeaning": "Ask what is hidden.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [],
+    "uiUse": [
+      "help_layer",
+      "question_cursor"
+    ],
+    "gateway": [
+      "Beginner",
+      "Game"
+    ],
+    "recursionLevel": 1,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "ui_sophia_book",
+    "type": "Interface",
+    "name": "Sophia Book",
+    "color": null,
+    "description": "Guidance panel for current pressure.",
+    "simpleMeaning": "Here is one way to continue.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [],
+    "uiUse": [
+      "sophia_book"
+    ],
+    "gateway": [
+      "Beginner",
+      "Game"
+    ],
+    "recursionLevel": 1,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "ui_watcher_lens",
+    "type": "Interface",
+    "name": "Watcher Lens",
+    "color": "Gold",
+    "description": "Consequence and memory panel.",
+    "simpleMeaning": "What happened still matters.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [],
+    "uiUse": [
+      "watcher_lens"
+    ],
+    "gateway": [
+      "Beginner",
+      "Game"
+    ],
+    "recursionLevel": 1,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  }
+]

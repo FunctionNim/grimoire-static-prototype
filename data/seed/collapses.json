@@ -1,0 +1,262 @@
+[
+  {
+    "id": "co_stone_tomb",
+    "type": "Collapse",
+    "name": "Anchor Becomes Tomb",
+    "color": "Stone",
+    "description": "Stability prevents life from moving.",
+    "simpleMeaning": "Do not let the anchor become a tomb.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [
+      "rs_movement_renewal"
+    ],
+    "uiUse": [
+      "collapse_view"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "co_black_wall",
+    "type": "Collapse",
+    "name": "Self Becomes Wall",
+    "color": "Black",
+    "description": "Boundary becomes isolation.",
+    "simpleMeaning": "Do not let the boundary become a wall.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [
+      "rs_relation_continuity"
+    ],
+    "uiUse": [
+      "collapse_view"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "co_red_endless_fire",
+    "type": "Collapse",
+    "name": "Endless Fire",
+    "color": "Red",
+    "description": "Conflict becomes the only language.",
+    "simpleMeaning": "Do not let the fire become the whole world.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [
+      "rs_limit_repair"
+    ],
+    "uiUse": [
+      "collapse_view"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "co_white_erasure",
+    "type": "Collapse",
+    "name": "Belonging Erases Difference",
+    "color": "White",
+    "description": "The group consumes the person.",
+    "simpleMeaning": "Do not let belonging erase the one who belongs.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [
+      "rs_distinction_critique"
+    ],
+    "uiUse": [
+      "collapse_view"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "co_gold_locked_archive",
+    "type": "Collapse",
+    "name": "Record Replaces Life",
+    "color": "Gold",
+    "description": "Observation replaces participation.",
+    "simpleMeaning": "Do not let the record replace the life.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [
+      "rs_movement_questioning"
+    ],
+    "uiUse": [
+      "collapse_view"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "co_brown_prison_house",
+    "type": "Collapse",
+    "name": "House Becomes Prison",
+    "color": "Brown",
+    "description": "Structure controls instead of shelters.",
+    "simpleMeaning": "Do not let the house become a prison.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [
+      "rs_circulation_redesign"
+    ],
+    "uiUse": [
+      "collapse_view"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "co_pink_empty_room",
+    "type": "Collapse",
+    "name": "Question Empties Room",
+    "color": "Pink",
+    "description": "Critique dissolves trust.",
+    "simpleMeaning": "Do not let the question empty the room.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [
+      "rs_context_evidence"
+    ],
+    "uiUse": [
+      "collapse_view"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "co_green_rotting_seed",
+    "type": "Collapse",
+    "name": "Seed Rots in Storage",
+    "color": "Green",
+    "description": "Preservation never releases.",
+    "simpleMeaning": "Do not let the seed rot in storage.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [
+      "rs_activation_circulation"
+    ],
+    "uiUse": [
+      "collapse_view"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "co_purple_broken_cauldron",
+    "type": "Collapse",
+    "name": "Cauldron Breaks",
+    "color": "Purple",
+    "description": "Transformation loses containment.",
+    "simpleMeaning": "Do not let the cauldron break.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [
+      "rs_containment_memory"
+    ],
+    "uiUse": [
+      "collapse_view"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "co_blue_lost_road",
+    "type": "Collapse",
+    "name": "Road Forgets Home",
+    "color": "Blue",
+    "description": "Movement becomes escape or wandering.",
+    "simpleMeaning": "Do not let the road forget home.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [
+      "rs_anchor_structure"
+    ],
+    "uiUse": [
+      "collapse_view"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  }
+]

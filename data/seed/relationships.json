@@ -1,0 +1,866 @@
+[
+  {
+    "id": "rel_fn_stone_to_co_stone_tomb_collapses_into",
+    "source": "fn_stone",
+    "target": "co_stone_tomb",
+    "type": "collapses_into",
+    "weight": 1.0,
+    "description": "fn_stone can overgrow into co_stone_tomb.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_co_stone_tomb_to_rs_movement_renewal_restored_by",
+    "source": "co_stone_tomb",
+    "target": "rs_movement_renewal",
+    "type": "restored_by",
+    "weight": 1.0,
+    "description": "co_stone_tomb is restored by rs_movement_renewal.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_fn_black_to_co_black_wall_collapses_into",
+    "source": "fn_black",
+    "target": "co_black_wall",
+    "type": "collapses_into",
+    "weight": 1.0,
+    "description": "fn_black can overgrow into co_black_wall.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_co_black_wall_to_rs_relation_continuity_restored_by",
+    "source": "co_black_wall",
+    "target": "rs_relation_continuity",
+    "type": "restored_by",
+    "weight": 1.0,
+    "description": "co_black_wall is restored by rs_relation_continuity.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_fn_red_to_co_red_endless_fire_collapses_into",
+    "source": "fn_red",
+    "target": "co_red_endless_fire",
+    "type": "collapses_into",
+    "weight": 1.0,
+    "description": "fn_red can overgrow into co_red_endless_fire.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_co_red_endless_fire_to_rs_limit_repair_restored_by",
+    "source": "co_red_endless_fire",
+    "target": "rs_limit_repair",
+    "type": "restored_by",
+    "weight": 1.0,
+    "description": "co_red_endless_fire is restored by rs_limit_repair.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_fn_white_to_co_white_erasure_collapses_into",
+    "source": "fn_white",
+    "target": "co_white_erasure",
+    "type": "collapses_into",
+    "weight": 1.0,
+    "description": "fn_white can overgrow into co_white_erasure.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_co_white_erasure_to_rs_distinction_critique_restored_by",
+    "source": "co_white_erasure",
+    "target": "rs_distinction_critique",
+    "type": "restored_by",
+    "weight": 1.0,
+    "description": "co_white_erasure is restored by rs_distinction_critique.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_fn_gold_to_co_gold_locked_archive_collapses_into",
+    "source": "fn_gold",
+    "target": "co_gold_locked_archive",
+    "type": "collapses_into",
+    "weight": 1.0,
+    "description": "fn_gold can overgrow into co_gold_locked_archive.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_co_gold_locked_archive_to_rs_movement_questioning_restored_by",
+    "source": "co_gold_locked_archive",
+    "target": "rs_movement_questioning",
+    "type": "restored_by",
+    "weight": 1.0,
+    "description": "co_gold_locked_archive is restored by rs_movement_questioning.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_fn_brown_to_co_brown_prison_house_collapses_into",
+    "source": "fn_brown",
+    "target": "co_brown_prison_house",
+    "type": "collapses_into",
+    "weight": 1.0,
+    "description": "fn_brown can overgrow into co_brown_prison_house.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_co_brown_prison_house_to_rs_circulation_redesign_restored_by",
+    "source": "co_brown_prison_house",
+    "target": "rs_circulation_redesign",
+    "type": "restored_by",
+    "weight": 1.0,
+    "description": "co_brown_prison_house is restored by rs_circulation_redesign.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_fn_pink_to_co_pink_empty_room_collapses_into",
+    "source": "fn_pink",
+    "target": "co_pink_empty_room",
+    "type": "collapses_into",
+    "weight": 1.0,
+    "description": "fn_pink can overgrow into co_pink_empty_room.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_co_pink_empty_room_to_rs_context_evidence_restored_by",
+    "source": "co_pink_empty_room",
+    "target": "rs_context_evidence",
+    "type": "restored_by",
+    "weight": 1.0,
+    "description": "co_pink_empty_room is restored by rs_context_evidence.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_fn_green_to_co_green_rotting_seed_collapses_into",
+    "source": "fn_green",
+    "target": "co_green_rotting_seed",
+    "type": "collapses_into",
+    "weight": 1.0,
+    "description": "fn_green can overgrow into co_green_rotting_seed.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_co_green_rotting_seed_to_rs_activation_circulation_restored_by",
+    "source": "co_green_rotting_seed",
+    "target": "rs_activation_circulation",
+    "type": "restored_by",
+    "weight": 1.0,
+    "description": "co_green_rotting_seed is restored by rs_activation_circulation.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_fn_purple_to_co_purple_broken_cauldron_collapses_into",
+    "source": "fn_purple",
+    "target": "co_purple_broken_cauldron",
+    "type": "collapses_into",
+    "weight": 1.0,
+    "description": "fn_purple can overgrow into co_purple_broken_cauldron.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_co_purple_broken_cauldron_to_rs_containment_memory_restored_by",
+    "source": "co_purple_broken_cauldron",
+    "target": "rs_containment_memory",
+    "type": "restored_by",
+    "weight": 1.0,
+    "description": "co_purple_broken_cauldron is restored by rs_containment_memory.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_fn_blue_to_co_blue_lost_road_collapses_into",
+    "source": "fn_blue",
+    "target": "co_blue_lost_road",
+    "type": "collapses_into",
+    "weight": 1.0,
+    "description": "fn_blue can overgrow into co_blue_lost_road.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_co_blue_lost_road_to_rs_anchor_structure_restored_by",
+    "source": "co_blue_lost_road",
+    "target": "rs_anchor_structure",
+    "type": "restored_by",
+    "weight": 1.0,
+    "description": "co_blue_lost_road is restored by rs_anchor_structure.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_accumulation_to_fn_green_has_pressure",
+    "source": "pr_accumulation",
+    "target": "fn_green",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_accumulation is associated with fn_green.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_accumulation_to_fn_gold_has_pressure",
+    "source": "pr_accumulation",
+    "target": "fn_gold",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_accumulation is associated with fn_gold.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_accumulation_to_fn_brown_has_pressure",
+    "source": "pr_accumulation",
+    "target": "fn_brown",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_accumulation is associated with fn_brown.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_accumulation_to_co_green_rotting_seed_has_pressure",
+    "source": "pr_accumulation",
+    "target": "co_green_rotting_seed",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_accumulation is associated with co_green_rotting_seed.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_accumulation_to_co_gold_locked_archive_has_pressure",
+    "source": "pr_accumulation",
+    "target": "co_gold_locked_archive",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_accumulation is associated with co_gold_locked_archive.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_accumulation_to_co_brown_prison_house_has_pressure",
+    "source": "pr_accumulation",
+    "target": "co_brown_prison_house",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_accumulation is associated with co_brown_prison_house.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_escalation_to_fn_red_has_pressure",
+    "source": "pr_escalation",
+    "target": "fn_red",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_escalation is associated with fn_red.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_escalation_to_fn_purple_has_pressure",
+    "source": "pr_escalation",
+    "target": "fn_purple",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_escalation is associated with fn_purple.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_escalation_to_fn_pink_has_pressure",
+    "source": "pr_escalation",
+    "target": "fn_pink",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_escalation is associated with fn_pink.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_escalation_to_co_red_endless_fire_has_pressure",
+    "source": "pr_escalation",
+    "target": "co_red_endless_fire",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_escalation is associated with co_red_endless_fire.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_escalation_to_co_purple_broken_cauldron_has_pressure",
+    "source": "pr_escalation",
+    "target": "co_purple_broken_cauldron",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_escalation is associated with co_purple_broken_cauldron.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_escalation_to_co_pink_empty_room_has_pressure",
+    "source": "pr_escalation",
+    "target": "co_pink_empty_room",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_escalation is associated with co_pink_empty_room.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_fragmentation_to_fn_black_has_pressure",
+    "source": "pr_fragmentation",
+    "target": "fn_black",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_fragmentation is associated with fn_black.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_fragmentation_to_fn_pink_has_pressure",
+    "source": "pr_fragmentation",
+    "target": "fn_pink",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_fragmentation is associated with fn_pink.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_fragmentation_to_fn_blue_has_pressure",
+    "source": "pr_fragmentation",
+    "target": "fn_blue",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_fragmentation is associated with fn_blue.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_fragmentation_to_co_black_wall_has_pressure",
+    "source": "pr_fragmentation",
+    "target": "co_black_wall",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_fragmentation is associated with co_black_wall.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_fragmentation_to_co_blue_lost_road_has_pressure",
+    "source": "pr_fragmentation",
+    "target": "co_blue_lost_road",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_fragmentation is associated with co_blue_lost_road.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_fragmentation_to_co_pink_empty_room_has_pressure",
+    "source": "pr_fragmentation",
+    "target": "co_pink_empty_room",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_fragmentation is associated with co_pink_empty_room.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_stagnation_to_fn_stone_has_pressure",
+    "source": "pr_stagnation",
+    "target": "fn_stone",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_stagnation is associated with fn_stone.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_stagnation_to_fn_green_has_pressure",
+    "source": "pr_stagnation",
+    "target": "fn_green",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_stagnation is associated with fn_green.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_stagnation_to_fn_brown_has_pressure",
+    "source": "pr_stagnation",
+    "target": "fn_brown",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_stagnation is associated with fn_brown.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_stagnation_to_co_stone_tomb_has_pressure",
+    "source": "pr_stagnation",
+    "target": "co_stone_tomb",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_stagnation is associated with co_stone_tomb.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_stagnation_to_co_green_rotting_seed_has_pressure",
+    "source": "pr_stagnation",
+    "target": "co_green_rotting_seed",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_stagnation is associated with co_green_rotting_seed.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_stagnation_to_co_brown_prison_house_has_pressure",
+    "source": "pr_stagnation",
+    "target": "co_brown_prison_house",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_stagnation is associated with co_brown_prison_house.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_dissolution_to_fn_purple_has_pressure",
+    "source": "pr_dissolution",
+    "target": "fn_purple",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_dissolution is associated with fn_purple.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_dissolution_to_fn_white_has_pressure",
+    "source": "pr_dissolution",
+    "target": "fn_white",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_dissolution is associated with fn_white.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_dissolution_to_fn_blue_has_pressure",
+    "source": "pr_dissolution",
+    "target": "fn_blue",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_dissolution is associated with fn_blue.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_dissolution_to_co_purple_broken_cauldron_has_pressure",
+    "source": "pr_dissolution",
+    "target": "co_purple_broken_cauldron",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_dissolution is associated with co_purple_broken_cauldron.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_dissolution_to_co_white_erasure_has_pressure",
+    "source": "pr_dissolution",
+    "target": "co_white_erasure",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_dissolution is associated with co_white_erasure.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_dissolution_to_co_blue_lost_road_has_pressure",
+    "source": "pr_dissolution",
+    "target": "co_blue_lost_road",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_dissolution is associated with co_blue_lost_road.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_exclusion_to_fn_black_has_pressure",
+    "source": "pr_exclusion",
+    "target": "fn_black",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_exclusion is associated with fn_black.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_exclusion_to_fn_stone_has_pressure",
+    "source": "pr_exclusion",
+    "target": "fn_stone",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_exclusion is associated with fn_stone.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_exclusion_to_fn_red_has_pressure",
+    "source": "pr_exclusion",
+    "target": "fn_red",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_exclusion is associated with fn_red.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_exclusion_to_co_black_wall_has_pressure",
+    "source": "pr_exclusion",
+    "target": "co_black_wall",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_exclusion is associated with co_black_wall.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_exclusion_to_co_stone_tomb_has_pressure",
+    "source": "pr_exclusion",
+    "target": "co_stone_tomb",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_exclusion is associated with co_stone_tomb.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_exclusion_to_co_red_endless_fire_has_pressure",
+    "source": "pr_exclusion",
+    "target": "co_red_endless_fire",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_exclusion is associated with co_red_endless_fire.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_adaptation_to_fn_purple_has_pressure",
+    "source": "pr_adaptation",
+    "target": "fn_purple",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_adaptation is associated with fn_purple.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_adaptation_to_fn_green_has_pressure",
+    "source": "pr_adaptation",
+    "target": "fn_green",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_adaptation is associated with fn_green.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_adaptation_to_fn_blue_has_pressure",
+    "source": "pr_adaptation",
+    "target": "fn_blue",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_adaptation is associated with fn_blue.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_adaptation_to_co_purple_broken_cauldron_has_pressure",
+    "source": "pr_adaptation",
+    "target": "co_purple_broken_cauldron",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_adaptation is associated with co_purple_broken_cauldron.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_adaptation_to_co_blue_lost_road_has_pressure",
+    "source": "pr_adaptation",
+    "target": "co_blue_lost_road",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_adaptation is associated with co_blue_lost_road.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_adaptation_to_co_green_rotting_seed_has_pressure",
+    "source": "pr_adaptation",
+    "target": "co_green_rotting_seed",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_adaptation is associated with co_green_rotting_seed.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_recursion_to_fn_gold_has_pressure",
+    "source": "pr_recursion",
+    "target": "fn_gold",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_recursion is associated with fn_gold.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_recursion_to_fn_pink_has_pressure",
+    "source": "pr_recursion",
+    "target": "fn_pink",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_recursion is associated with fn_pink.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_recursion_to_as_watcher_has_pressure",
+    "source": "pr_recursion",
+    "target": "as_watcher",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_recursion is associated with as_watcher.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_recursion_to_co_gold_locked_archive_has_pressure",
+    "source": "pr_recursion",
+    "target": "co_gold_locked_archive",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_recursion is associated with co_gold_locked_archive.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_recursion_to_co_pink_empty_room_has_pressure",
+    "source": "pr_recursion",
+    "target": "co_pink_empty_room",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_recursion is associated with co_pink_empty_room.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_pr_recursion_to_co_purple_broken_cauldron_has_pressure",
+    "source": "pr_recursion",
+    "target": "co_purple_broken_cauldron",
+    "type": "has_pressure",
+    "weight": 0.8,
+    "description": "pr_recursion is associated with co_purple_broken_cauldron.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_ui_start_menu_to_fn_blue_routes_to",
+    "source": "ui_start_menu",
+    "target": "fn_blue",
+    "type": "routes_to",
+    "weight": 1.0,
+    "description": "ui_start_menu connects to fn_blue through routes_to.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_ui_help_layer_to_fn_pink_uses_interface",
+    "source": "ui_help_layer",
+    "target": "fn_pink",
+    "type": "uses_interface",
+    "weight": 1.0,
+    "description": "ui_help_layer connects to fn_pink through uses_interface.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_ui_sophia_book_to_as_sophia_uses_interface",
+    "source": "ui_sophia_book",
+    "target": "as_sophia",
+    "type": "uses_interface",
+    "weight": 1.0,
+    "description": "ui_sophia_book connects to as_sophia through uses_interface.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_ui_watcher_lens_to_as_watcher_uses_interface",
+    "source": "ui_watcher_lens",
+    "target": "as_watcher",
+    "type": "uses_interface",
+    "weight": 1.0,
+    "description": "ui_watcher_lens connects to as_watcher through uses_interface.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_ui_watcher_lens_to_fn_gold_uses_interface",
+    "source": "ui_watcher_lens",
+    "target": "fn_gold",
+    "type": "uses_interface",
+    "weight": 1.0,
+    "description": "ui_watcher_lens connects to fn_gold through uses_interface.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_as_sophia_to_ui_sophia_book_guides",
+    "source": "as_sophia",
+    "target": "ui_sophia_book",
+    "type": "guides",
+    "weight": 1.0,
+    "description": "as_sophia connects to ui_sophia_book through guides.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_as_watcher_to_ui_watcher_lens_observes",
+    "source": "as_watcher",
+    "target": "ui_watcher_lens",
+    "type": "observes",
+    "weight": 1.0,
+    "description": "as_watcher connects to ui_watcher_lens through observes.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_as_fertile_cauldron_to_fn_purple_transforms_into",
+    "source": "as_fertile_cauldron",
+    "target": "fn_purple",
+    "type": "transforms_into",
+    "weight": 1.0,
+    "description": "as_fertile_cauldron connects to fn_purple through transforms_into.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_as_sophia_to_rs_movement_renewal_guides",
+    "source": "as_sophia",
+    "target": "rs_movement_renewal",
+    "type": "guides",
+    "weight": 0.7,
+    "description": "Sophia can explain Movement and Renewal without command.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_as_sophia_to_rs_relation_continuity_guides",
+    "source": "as_sophia",
+    "target": "rs_relation_continuity",
+    "type": "guides",
+    "weight": 0.7,
+    "description": "Sophia can explain Relation and Continuity without command.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_as_sophia_to_rs_limit_repair_guides",
+    "source": "as_sophia",
+    "target": "rs_limit_repair",
+    "type": "guides",
+    "weight": 0.7,
+    "description": "Sophia can explain Limit and Repair without command.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_as_sophia_to_rs_distinction_critique_guides",
+    "source": "as_sophia",
+    "target": "rs_distinction_critique",
+    "type": "guides",
+    "weight": 0.7,
+    "description": "Sophia can explain Distinction and Critique without command.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_as_sophia_to_rs_movement_questioning_guides",
+    "source": "as_sophia",
+    "target": "rs_movement_questioning",
+    "type": "guides",
+    "weight": 0.7,
+    "description": "Sophia can explain Movement and Questioning without command.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_as_sophia_to_rs_circulation_redesign_guides",
+    "source": "as_sophia",
+    "target": "rs_circulation_redesign",
+    "type": "guides",
+    "weight": 0.7,
+    "description": "Sophia can explain Circulation and Redesign without command.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_as_sophia_to_rs_context_evidence_guides",
+    "source": "as_sophia",
+    "target": "rs_context_evidence",
+    "type": "guides",
+    "weight": 0.7,
+    "description": "Sophia can explain Context and Evidence without command.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_as_sophia_to_rs_activation_circulation_guides",
+    "source": "as_sophia",
+    "target": "rs_activation_circulation",
+    "type": "guides",
+    "weight": 0.7,
+    "description": "Sophia can explain Activation and Circulation without command.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_as_sophia_to_rs_containment_memory_guides",
+    "source": "as_sophia",
+    "target": "rs_containment_memory",
+    "type": "guides",
+    "weight": 0.7,
+    "description": "Sophia can explain Containment and Memory without command.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_as_sophia_to_rs_anchor_structure_guides",
+    "source": "as_sophia",
+    "target": "rs_anchor_structure",
+    "type": "guides",
+    "weight": 0.7,
+    "description": "Sophia can explain Anchor and Structure without command.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_as_watcher_to_co_stone_tomb_observes",
+    "source": "as_watcher",
+    "target": "co_stone_tomb",
+    "type": "observes",
+    "weight": 0.8,
+    "description": "The Watcher records Anchor Becomes Tomb as a collapse risk.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_as_watcher_to_co_black_wall_observes",
+    "source": "as_watcher",
+    "target": "co_black_wall",
+    "type": "observes",
+    "weight": 0.8,
+    "description": "The Watcher records Self Becomes Wall as a collapse risk.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_as_watcher_to_co_red_endless_fire_observes",
+    "source": "as_watcher",
+    "target": "co_red_endless_fire",
+    "type": "observes",
+    "weight": 0.8,
+    "description": "The Watcher records Endless Fire as a collapse risk.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_as_watcher_to_co_white_erasure_observes",
+    "source": "as_watcher",
+    "target": "co_white_erasure",
+    "type": "observes",
+    "weight": 0.8,
+    "description": "The Watcher records Belonging Erases Difference as a collapse risk.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_as_watcher_to_co_gold_locked_archive_observes",
+    "source": "as_watcher",
+    "target": "co_gold_locked_archive",
+    "type": "observes",
+    "weight": 0.8,
+    "description": "The Watcher records Record Replaces Life as a collapse risk.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_as_watcher_to_co_brown_prison_house_observes",
+    "source": "as_watcher",
+    "target": "co_brown_prison_house",
+    "type": "observes",
+    "weight": 0.8,
+    "description": "The Watcher records House Becomes Prison as a collapse risk.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_as_watcher_to_co_pink_empty_room_observes",
+    "source": "as_watcher",
+    "target": "co_pink_empty_room",
+    "type": "observes",
+    "weight": 0.8,
+    "description": "The Watcher records Question Empties Room as a collapse risk.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_as_watcher_to_co_green_rotting_seed_observes",
+    "source": "as_watcher",
+    "target": "co_green_rotting_seed",
+    "type": "observes",
+    "weight": 0.8,
+    "description": "The Watcher records Seed Rots in Storage as a collapse risk.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_as_watcher_to_co_purple_broken_cauldron_observes",
+    "source": "as_watcher",
+    "target": "co_purple_broken_cauldron",
+    "type": "observes",
+    "weight": 0.8,
+    "description": "The Watcher records Cauldron Breaks as a collapse risk.",
+    "version": "0.1"
+  },
+  {
+    "id": "rel_as_watcher_to_co_blue_lost_road_observes",
+    "source": "as_watcher",
+    "target": "co_blue_lost_road",
+    "type": "observes",
+    "weight": 0.8,
+    "description": "The Watcher records Road Forgets Home as a collapse risk.",
+    "version": "0.1"
+  }
+]

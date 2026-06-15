@@ -1,0 +1,33 @@
+{
+  "phase": "Phase 14 \u2014 Static Prototype QA and Repair Pass",
+  "generated_at": "2026-06-15T04:00:46",
+  "source_packet": "grimoire_phase13_static_prototype_starter_code.zip",
+  "patched_packet_name": "grimoire_phase14_static_prototype_repaired.zip",
+  "checks": {
+    "smoke_test": "PASS",
+    "required_files_missing": [],
+    "node_count": 45,
+    "relationship_count": 96,
+    "broken_relationships": 0,
+    "orphan_collapses": [],
+    "tsconfig_has_paths_alias": true,
+    "tsconfig_target": "ES2020",
+    "route_count": 6
+  },
+  "repairs_applied": [
+    "Added TypeScript baseUrl and @/* path alias to tsconfig.json.",
+    "Raised TypeScript target to ES2020 so Object.fromEntries is supported cleanly.",
+    "Updated dynamic route params typing in app/node/[id]/page.tsx.",
+    "Updated searchParams typing in app/sophia/page.tsx.",
+    "Updated searchParams typing in app/watcher/page.tsx.",
+    "Added qa:smoke script alias in package.json.",
+    "Added Phase 14 QA report and repair notes."
+  ],
+  "known_limits": [
+    "npm install and next build were not run in this environment because node dependencies are not installed in the packet.",
+    "The smoke test validates seed integrity and file presence, not browser rendering.",
+    "The standalone preview remains the fastest no-install proof path."
+  ],
+  "smoke_stdout": "Smoke test passed.\nNodes: 45\nRelationships: 96\nRequired six routes exist.\nAll collapse nodes have restoration coverage.\n",
+  "smoke_stderr": ""
+}

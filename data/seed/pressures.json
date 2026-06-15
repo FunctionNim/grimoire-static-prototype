@@ -1,0 +1,226 @@
+[
+  {
+    "id": "pr_accumulation",
+    "type": "Pressure",
+    "name": "Accumulation",
+    "color": null,
+    "description": "Pressure builds faster than it can be processed.",
+    "simpleMeaning": "Too much gathers without enough release.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [
+      "co_green_rotting_seed",
+      "co_gold_locked_archive",
+      "co_brown_prison_house"
+    ],
+    "restorationLinks": [],
+    "uiUse": [
+      "pressure_view"
+    ],
+    "gateway": [
+      "Intermediate",
+      "Visual",
+      "Build"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Land/Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "pr_escalation",
+    "type": "Pressure",
+    "name": "Escalation",
+    "color": null,
+    "description": "Pressure amplifies itself recursively.",
+    "simpleMeaning": "The situation feeds itself and grows hotter.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [
+      "co_red_endless_fire",
+      "co_purple_broken_cauldron",
+      "co_pink_empty_room"
+    ],
+    "restorationLinks": [],
+    "uiUse": [
+      "pressure_view"
+    ],
+    "gateway": [
+      "Intermediate",
+      "Visual",
+      "Build"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Land/Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "pr_fragmentation",
+    "type": "Pressure",
+    "name": "Fragmentation",
+    "color": null,
+    "description": "Continuity breaks into pieces.",
+    "simpleMeaning": "The whole can no longer hold together.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [
+      "co_black_wall",
+      "co_blue_lost_road",
+      "co_pink_empty_room"
+    ],
+    "restorationLinks": [],
+    "uiUse": [
+      "pressure_view"
+    ],
+    "gateway": [
+      "Intermediate",
+      "Visual",
+      "Build"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Land/Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "pr_stagnation",
+    "type": "Pressure",
+    "name": "Stagnation",
+    "color": null,
+    "description": "The system survives but stops adapting.",
+    "simpleMeaning": "Something remains standing but stops living.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [
+      "co_stone_tomb",
+      "co_green_rotting_seed",
+      "co_brown_prison_house"
+    ],
+    "restorationLinks": [],
+    "uiUse": [
+      "pressure_view"
+    ],
+    "gateway": [
+      "Intermediate",
+      "Visual",
+      "Build"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Land/Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "pr_dissolution",
+    "type": "Pressure",
+    "name": "Dissolution",
+    "color": null,
+    "description": "Boundaries weaken too much.",
+    "simpleMeaning": "Everything blends until nothing can hold shape.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [
+      "co_purple_broken_cauldron",
+      "co_white_erasure",
+      "co_blue_lost_road"
+    ],
+    "restorationLinks": [],
+    "uiUse": [
+      "pressure_view"
+    ],
+    "gateway": [
+      "Intermediate",
+      "Visual",
+      "Build"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Land/Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "pr_exclusion",
+    "type": "Pressure",
+    "name": "Exclusion",
+    "color": null,
+    "description": "Protection becomes rejection.",
+    "simpleMeaning": "The gate protects by refusing too much.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [
+      "co_black_wall",
+      "co_stone_tomb",
+      "co_red_endless_fire"
+    ],
+    "restorationLinks": [],
+    "uiUse": [
+      "pressure_view"
+    ],
+    "gateway": [
+      "Intermediate",
+      "Visual",
+      "Build"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Land/Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "pr_adaptation",
+    "type": "Pressure",
+    "name": "Adaptation",
+    "color": null,
+    "description": "The system changes to survive.",
+    "simpleMeaning": "Survival requires change without losing continuity.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [
+      "co_purple_broken_cauldron",
+      "co_blue_lost_road",
+      "co_green_rotting_seed"
+    ],
+    "restorationLinks": [],
+    "uiUse": [
+      "pressure_view"
+    ],
+    "gateway": [
+      "Intermediate",
+      "Visual",
+      "Build"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Land/Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "pr_recursion",
+    "type": "Pressure",
+    "name": "Recursion",
+    "color": null,
+    "description": "The system observes and modifies itself.",
+    "simpleMeaning": "The system starts watching its own watching.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [
+      "co_gold_locked_archive",
+      "co_pink_empty_room",
+      "co_purple_broken_cauldron"
+    ],
+    "restorationLinks": [],
+    "uiUse": [
+      "pressure_view"
+    ],
+    "gateway": [
+      "Intermediate",
+      "Advanced Recursive",
+      "Build"
+    ],
+    "recursionLevel": 3,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  }
+]

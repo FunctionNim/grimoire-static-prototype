@@ -1,0 +1,1192 @@
+[
+  {
+    "id": "fn_stone",
+    "type": "Function",
+    "name": "Stone",
+    "color": "Stone",
+    "description": "Ground, anchor, continuity.",
+    "simpleMeaning": "Start here. The ground is under you.",
+    "medicine": "Stability and survivable foundation.",
+    "poison": "Rigidity and burial.",
+    "collapseLinks": [
+      "co_stone_tomb"
+    ],
+    "restorationLinks": [
+      "rs_movement_renewal"
+    ],
+    "uiUse": [
+      "board_stability",
+      "rules_anchor"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 1,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "fn_black",
+    "type": "Function",
+    "name": "Black",
+    "color": "Black",
+    "description": "Self, boundary, identity.",
+    "simpleMeaning": "Choose who you are before the pressure begins.",
+    "medicine": "Identity, privacy, distinction, and protected selfhood.",
+    "poison": "Isolation, hostility, and exclusion.",
+    "collapseLinks": [
+      "co_black_wall"
+    ],
+    "restorationLinks": [
+      "rs_relation_continuity"
+    ],
+    "uiUse": [
+      "player_identity",
+      "targeting_boundary"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 1,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "fn_red",
+    "type": "Function",
+    "name": "Red",
+    "color": "Red",
+    "description": "Pressure, crisis, activation.",
+    "simpleMeaning": "Something is happening. Respond.",
+    "medicine": "Courage, force, urgency, and necessary confrontation.",
+    "poison": "Endless conflict and crisis addiction.",
+    "collapseLinks": [
+      "co_red_endless_fire"
+    ],
+    "restorationLinks": [
+      "rs_limit_repair"
+    ],
+    "uiUse": [
+      "combat",
+      "alerts",
+      "crisis_states"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 1,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "fn_white",
+    "type": "Function",
+    "name": "White",
+    "color": "White",
+    "description": "With, relation, belonging.",
+    "simpleMeaning": "You are not alone in the field.",
+    "medicine": "Belonging, care, shared protection, and cooperative survival.",
+    "poison": "Erasure, forced unity, and over-attachment.",
+    "collapseLinks": [
+      "co_white_erasure"
+    ],
+    "restorationLinks": [
+      "rs_distinction_critique"
+    ],
+    "uiUse": [
+      "coop",
+      "citizens",
+      "alliance_panels"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 1,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "fn_gold",
+    "type": "Function",
+    "name": "Gold",
+    "color": "Gold",
+    "description": "Remember, witness, consequence.",
+    "simpleMeaning": "What happened matters.",
+    "medicine": "Memory, witness, records, inheritance, and consequence.",
+    "poison": "Detachment, surveillance, and observation replacing action.",
+    "collapseLinks": [
+      "co_gold_locked_archive"
+    ],
+    "restorationLinks": [
+      "rs_movement_questioning"
+    ],
+    "uiUse": [
+      "watcher_lens",
+      "history_log"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 1,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "fn_brown",
+    "type": "Function",
+    "name": "Brown",
+    "color": "Brown",
+    "description": "Build, shelter, structure.",
+    "simpleMeaning": "Make something that can hold.",
+    "medicine": "Construction, shelter, tools, and usable form.",
+    "poison": "Control, overbuilding, and structure without purpose.",
+    "collapseLinks": [
+      "co_brown_prison_house"
+    ],
+    "restorationLinks": [
+      "rs_circulation_redesign"
+    ],
+    "uiUse": [
+      "build_menu",
+      "structures",
+      "crafting"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 1,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "fn_pink",
+    "type": "Function",
+    "name": "Pink",
+    "color": "Pink",
+    "description": "Ask, reveal, question.",
+    "simpleMeaning": "Ask what is hidden.",
+    "medicine": "Questioning, reflection, critique, and hidden truth.",
+    "poison": "Suspicion, trust erosion, and endless critique.",
+    "collapseLinks": [
+      "co_pink_empty_room"
+    ],
+    "restorationLinks": [
+      "rs_context_evidence"
+    ],
+    "uiUse": [
+      "help_layer",
+      "question_cursor"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 1,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "fn_green",
+    "type": "Function",
+    "name": "Green",
+    "color": "Green",
+    "description": "Keep alive, restore, preserve.",
+    "simpleMeaning": "Keep life going.",
+    "medicine": "Healing, reserve, preservation, growth, and continuation.",
+    "poison": "Hoarding, stagnation, and refusal to release.",
+    "collapseLinks": [
+      "co_green_rotting_seed"
+    ],
+    "restorationLinks": [
+      "rs_activation_circulation"
+    ],
+    "uiUse": [
+      "healing",
+      "repair",
+      "resource_reserve"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 1,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "fn_purple",
+    "type": "Function",
+    "name": "Purple",
+    "color": "Purple",
+    "description": "Change, transform, convert.",
+    "simpleMeaning": "Let the form change.",
+    "medicine": "Transformation, conversion, recombination, and creative change.",
+    "poison": "Instability, endless mutation, and vessel-breaking.",
+    "collapseLinks": [
+      "co_purple_broken_cauldron"
+    ],
+    "restorationLinks": [
+      "rs_containment_memory"
+    ],
+    "uiUse": [
+      "alchemy",
+      "mutation",
+      "recipes"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 1,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "fn_blue",
+    "type": "Function",
+    "name": "Blue",
+    "color": "Blue",
+    "description": "Door in, road home, gratitude.",
+    "simpleMeaning": "Welcome in. The road remains.",
+    "medicine": "Entry, movement, journey, return, and gratitude.",
+    "poison": "Wandering, escape, and direction loss.",
+    "collapseLinks": [
+      "co_blue_lost_road"
+    ],
+    "restorationLinks": [
+      "rs_anchor_structure"
+    ],
+    "uiUse": [
+      "start_menu",
+      "journey",
+      "exit_screen"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 1,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "pr_accumulation",
+    "type": "Pressure",
+    "name": "Accumulation",
+    "color": null,
+    "description": "Pressure builds faster than it can be processed.",
+    "simpleMeaning": "Too much gathers without enough release.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [
+      "co_green_rotting_seed",
+      "co_gold_locked_archive",
+      "co_brown_prison_house"
+    ],
+    "restorationLinks": [],
+    "uiUse": [
+      "pressure_view"
+    ],
+    "gateway": [
+      "Intermediate",
+      "Visual",
+      "Build"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Land/Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "pr_escalation",
+    "type": "Pressure",
+    "name": "Escalation",
+    "color": null,
+    "description": "Pressure amplifies itself recursively.",
+    "simpleMeaning": "The situation feeds itself and grows hotter.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [
+      "co_red_endless_fire",
+      "co_purple_broken_cauldron",
+      "co_pink_empty_room"
+    ],
+    "restorationLinks": [],
+    "uiUse": [
+      "pressure_view"
+    ],
+    "gateway": [
+      "Intermediate",
+      "Visual",
+      "Build"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Land/Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "pr_fragmentation",
+    "type": "Pressure",
+    "name": "Fragmentation",
+    "color": null,
+    "description": "Continuity breaks into pieces.",
+    "simpleMeaning": "The whole can no longer hold together.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [
+      "co_black_wall",
+      "co_blue_lost_road",
+      "co_pink_empty_room"
+    ],
+    "restorationLinks": [],
+    "uiUse": [
+      "pressure_view"
+    ],
+    "gateway": [
+      "Intermediate",
+      "Visual",
+      "Build"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Land/Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "pr_stagnation",
+    "type": "Pressure",
+    "name": "Stagnation",
+    "color": null,
+    "description": "The system survives but stops adapting.",
+    "simpleMeaning": "Something remains standing but stops living.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [
+      "co_stone_tomb",
+      "co_green_rotting_seed",
+      "co_brown_prison_house"
+    ],
+    "restorationLinks": [],
+    "uiUse": [
+      "pressure_view"
+    ],
+    "gateway": [
+      "Intermediate",
+      "Visual",
+      "Build"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Land/Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "pr_dissolution",
+    "type": "Pressure",
+    "name": "Dissolution",
+    "color": null,
+    "description": "Boundaries weaken too much.",
+    "simpleMeaning": "Everything blends until nothing can hold shape.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [
+      "co_purple_broken_cauldron",
+      "co_white_erasure",
+      "co_blue_lost_road"
+    ],
+    "restorationLinks": [],
+    "uiUse": [
+      "pressure_view"
+    ],
+    "gateway": [
+      "Intermediate",
+      "Visual",
+      "Build"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Land/Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "pr_exclusion",
+    "type": "Pressure",
+    "name": "Exclusion",
+    "color": null,
+    "description": "Protection becomes rejection.",
+    "simpleMeaning": "The gate protects by refusing too much.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [
+      "co_black_wall",
+      "co_stone_tomb",
+      "co_red_endless_fire"
+    ],
+    "restorationLinks": [],
+    "uiUse": [
+      "pressure_view"
+    ],
+    "gateway": [
+      "Intermediate",
+      "Visual",
+      "Build"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Land/Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "pr_adaptation",
+    "type": "Pressure",
+    "name": "Adaptation",
+    "color": null,
+    "description": "The system changes to survive.",
+    "simpleMeaning": "Survival requires change without losing continuity.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [
+      "co_purple_broken_cauldron",
+      "co_blue_lost_road",
+      "co_green_rotting_seed"
+    ],
+    "restorationLinks": [],
+    "uiUse": [
+      "pressure_view"
+    ],
+    "gateway": [
+      "Intermediate",
+      "Visual",
+      "Build"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Land/Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "pr_recursion",
+    "type": "Pressure",
+    "name": "Recursion",
+    "color": null,
+    "description": "The system observes and modifies itself.",
+    "simpleMeaning": "The system starts watching its own watching.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [
+      "co_gold_locked_archive",
+      "co_pink_empty_room",
+      "co_purple_broken_cauldron"
+    ],
+    "restorationLinks": [],
+    "uiUse": [
+      "pressure_view"
+    ],
+    "gateway": [
+      "Intermediate",
+      "Advanced Recursive",
+      "Build"
+    ],
+    "recursionLevel": 3,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "co_stone_tomb",
+    "type": "Collapse",
+    "name": "Anchor Becomes Tomb",
+    "color": "Stone",
+    "description": "Stability prevents life from moving.",
+    "simpleMeaning": "Do not let the anchor become a tomb.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [
+      "rs_movement_renewal"
+    ],
+    "uiUse": [
+      "collapse_view"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "co_black_wall",
+    "type": "Collapse",
+    "name": "Self Becomes Wall",
+    "color": "Black",
+    "description": "Boundary becomes isolation.",
+    "simpleMeaning": "Do not let the boundary become a wall.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [
+      "rs_relation_continuity"
+    ],
+    "uiUse": [
+      "collapse_view"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "co_red_endless_fire",
+    "type": "Collapse",
+    "name": "Endless Fire",
+    "color": "Red",
+    "description": "Conflict becomes the only language.",
+    "simpleMeaning": "Do not let the fire become the whole world.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [
+      "rs_limit_repair"
+    ],
+    "uiUse": [
+      "collapse_view"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "co_white_erasure",
+    "type": "Collapse",
+    "name": "Belonging Erases Difference",
+    "color": "White",
+    "description": "The group consumes the person.",
+    "simpleMeaning": "Do not let belonging erase the one who belongs.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [
+      "rs_distinction_critique"
+    ],
+    "uiUse": [
+      "collapse_view"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "co_gold_locked_archive",
+    "type": "Collapse",
+    "name": "Record Replaces Life",
+    "color": "Gold",
+    "description": "Observation replaces participation.",
+    "simpleMeaning": "Do not let the record replace the life.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [
+      "rs_movement_questioning"
+    ],
+    "uiUse": [
+      "collapse_view"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "co_brown_prison_house",
+    "type": "Collapse",
+    "name": "House Becomes Prison",
+    "color": "Brown",
+    "description": "Structure controls instead of shelters.",
+    "simpleMeaning": "Do not let the house become a prison.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [
+      "rs_circulation_redesign"
+    ],
+    "uiUse": [
+      "collapse_view"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "co_pink_empty_room",
+    "type": "Collapse",
+    "name": "Question Empties Room",
+    "color": "Pink",
+    "description": "Critique dissolves trust.",
+    "simpleMeaning": "Do not let the question empty the room.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [
+      "rs_context_evidence"
+    ],
+    "uiUse": [
+      "collapse_view"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "co_green_rotting_seed",
+    "type": "Collapse",
+    "name": "Seed Rots in Storage",
+    "color": "Green",
+    "description": "Preservation never releases.",
+    "simpleMeaning": "Do not let the seed rot in storage.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [
+      "rs_activation_circulation"
+    ],
+    "uiUse": [
+      "collapse_view"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "co_purple_broken_cauldron",
+    "type": "Collapse",
+    "name": "Cauldron Breaks",
+    "color": "Purple",
+    "description": "Transformation loses containment.",
+    "simpleMeaning": "Do not let the cauldron break.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [
+      "rs_containment_memory"
+    ],
+    "uiUse": [
+      "collapse_view"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "co_blue_lost_road",
+    "type": "Collapse",
+    "name": "Road Forgets Home",
+    "color": "Blue",
+    "description": "Movement becomes escape or wandering.",
+    "simpleMeaning": "Do not let the road forget home.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [
+      "rs_anchor_structure"
+    ],
+    "uiUse": [
+      "collapse_view"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "rs_movement_renewal",
+    "type": "Restoration",
+    "name": "Movement and Renewal",
+    "color": null,
+    "description": "Blue movement plus Purple renewal restores Stone overgrowth.",
+    "simpleMeaning": "Open a road and allow the form to change.",
+    "medicine": "Movement and renewal.",
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [],
+    "uiUse": [
+      "restoration_routes"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "rs_relation_continuity",
+    "type": "Restoration",
+    "name": "Relation and Continuity",
+    "color": null,
+    "description": "White relation plus Green continuity restores Black overgrowth.",
+    "simpleMeaning": "Let relation return without erasing the self.",
+    "medicine": "Relation and continuity.",
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [],
+    "uiUse": [
+      "restoration_routes"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "rs_limit_repair",
+    "type": "Restoration",
+    "name": "Limit and Repair",
+    "color": null,
+    "description": "Stone limit plus White repair restores Red overgrowth.",
+    "simpleMeaning": "Give the fire a boundary and somewhere to heal.",
+    "medicine": "Limit and repair.",
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [],
+    "uiUse": [
+      "restoration_routes"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "rs_distinction_critique",
+    "type": "Restoration",
+    "name": "Distinction and Critique",
+    "color": null,
+    "description": "Black distinction plus Pink critique restores White overgrowth.",
+    "simpleMeaning": "Let each voice remain real inside the group.",
+    "medicine": "Distinction and critique.",
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [],
+    "uiUse": [
+      "restoration_routes"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "rs_movement_questioning",
+    "type": "Restoration",
+    "name": "Movement and Questioning",
+    "color": null,
+    "description": "Blue movement plus Pink questioning restores Gold overgrowth.",
+    "simpleMeaning": "Let memory become movement and question the record.",
+    "medicine": "Movement and questioning.",
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [],
+    "uiUse": [
+      "restoration_routes"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "rs_circulation_redesign",
+    "type": "Restoration",
+    "name": "Circulation and Redesign",
+    "color": null,
+    "description": "Blue circulation plus Purple redesign restores Brown overgrowth.",
+    "simpleMeaning": "Open the structure and let it change.",
+    "medicine": "Circulation and redesign.",
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [],
+    "uiUse": [
+      "restoration_routes"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "rs_context_evidence",
+    "type": "Restoration",
+    "name": "Context and Evidence",
+    "color": null,
+    "description": "White context plus Gold evidence restores Pink overgrowth.",
+    "simpleMeaning": "Hold the question with relation and record.",
+    "medicine": "Context and evidence.",
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [],
+    "uiUse": [
+      "restoration_routes"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "rs_activation_circulation",
+    "type": "Restoration",
+    "name": "Activation and Circulation",
+    "color": null,
+    "description": "Red activation plus Blue circulation restores Green overgrowth.",
+    "simpleMeaning": "Spend what was stored and move it where life can use it.",
+    "medicine": "Activation and circulation.",
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [],
+    "uiUse": [
+      "restoration_routes"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "rs_containment_memory",
+    "type": "Restoration",
+    "name": "Containment and Memory",
+    "color": null,
+    "description": "Stone containment plus Gold memory restores Purple overgrowth.",
+    "simpleMeaning": "Keep the vessel whole and remember what mattered.",
+    "medicine": "Containment and memory.",
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [],
+    "uiUse": [
+      "restoration_routes"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "rs_anchor_structure",
+    "type": "Restoration",
+    "name": "Anchor and Structure",
+    "color": null,
+    "description": "Stone anchor plus Brown structure restores Blue overgrowth.",
+    "simpleMeaning": "Give the road a home and a usable route.",
+    "medicine": "Anchor and structure.",
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [],
+    "uiUse": [
+      "restoration_routes"
+    ],
+    "gateway": [
+      "Beginner",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "as_sophia",
+    "type": "Assistance",
+    "name": "Sophia",
+    "color": null,
+    "description": "Guidance that lowers pressure without removing agency.",
+    "simpleMeaning": "Here is one way to continue.",
+    "medicine": "Gentle orientation.",
+    "poison": "Over-guidance that removes agency.",
+    "collapseLinks": [],
+    "restorationLinks": [],
+    "uiUse": [
+      "sophia_book",
+      "onboarding",
+      "hints"
+    ],
+    "gateway": [
+      "Beginner",
+      "Intermediate",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "as_watcher",
+    "type": "Assistance",
+    "name": "The Watcher",
+    "color": null,
+    "description": "Consequence-aware observation without command.",
+    "simpleMeaning": "What happened still matters.",
+    "medicine": "Records consequence.",
+    "poison": "Observation replacing participation.",
+    "collapseLinks": [],
+    "restorationLinks": [],
+    "uiUse": [
+      "watcher_lens",
+      "history_log",
+      "collapse_warnings"
+    ],
+    "gateway": [
+      "Beginner",
+      "Intermediate",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "as_fertile_cauldron",
+    "type": "Assistance",
+    "name": "Fertile Cauldron",
+    "color": null,
+    "description": "Protected transformation into usable systems.",
+    "simpleMeaning": "Pressure can be cooked into something livable.",
+    "medicine": "Regenerative transformation.",
+    "poison": "Uncontained transformation.",
+    "collapseLinks": [],
+    "restorationLinks": [],
+    "uiUse": [
+      "recipe_logic",
+      "transformation_layer"
+    ],
+    "gateway": [
+      "Intermediate",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 3,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "ui_start_menu",
+    "type": "Interface",
+    "name": "Start Menu",
+    "color": "Blue",
+    "description": "The player's Blue entry door.",
+    "simpleMeaning": "Welcome in. The road begins here.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [],
+    "uiUse": [
+      "start_menu"
+    ],
+    "gateway": [
+      "Beginner",
+      "Game"
+    ],
+    "recursionLevel": 1,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "ui_help_layer",
+    "type": "Interface",
+    "name": "Help Layer",
+    "color": "Pink",
+    "description": "Pink question tool for details.",
+    "simpleMeaning": "Ask what is hidden.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [],
+    "uiUse": [
+      "help_layer",
+      "question_cursor"
+    ],
+    "gateway": [
+      "Beginner",
+      "Game"
+    ],
+    "recursionLevel": 1,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "ui_sophia_book",
+    "type": "Interface",
+    "name": "Sophia Book",
+    "color": null,
+    "description": "Guidance panel for current pressure.",
+    "simpleMeaning": "Here is one way to continue.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [],
+    "uiUse": [
+      "sophia_book"
+    ],
+    "gateway": [
+      "Beginner",
+      "Game"
+    ],
+    "recursionLevel": 1,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "ui_watcher_lens",
+    "type": "Interface",
+    "name": "Watcher Lens",
+    "color": "Gold",
+    "description": "Consequence and memory panel.",
+    "simpleMeaning": "What happened still matters.",
+    "medicine": null,
+    "poison": null,
+    "collapseLinks": [],
+    "restorationLinks": [],
+    "uiUse": [
+      "watcher_lens"
+    ],
+    "gateway": [
+      "Beginner",
+      "Game"
+    ],
+    "recursionLevel": 1,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  }
+]

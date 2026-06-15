@@ -1,0 +1,79 @@
+[
+  {
+    "id": "as_sophia",
+    "type": "Assistance",
+    "name": "Sophia",
+    "color": null,
+    "description": "Guidance that lowers pressure without removing agency.",
+    "simpleMeaning": "Here is one way to continue.",
+    "medicine": "Gentle orientation.",
+    "poison": "Over-guidance that removes agency.",
+    "collapseLinks": [],
+    "restorationLinks": [],
+    "uiUse": [
+      "sophia_book",
+      "onboarding",
+      "hints"
+    ],
+    "gateway": [
+      "Beginner",
+      "Intermediate",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "as_watcher",
+    "type": "Assistance",
+    "name": "The Watcher",
+    "color": null,
+    "description": "Consequence-aware observation without command.",
+    "simpleMeaning": "What happened still matters.",
+    "medicine": "Records consequence.",
+    "poison": "Observation replacing participation.",
+    "collapseLinks": [],
+    "restorationLinks": [],
+    "uiUse": [
+      "watcher_lens",
+      "history_log",
+      "collapse_warnings"
+    ],
+    "gateway": [
+      "Beginner",
+      "Intermediate",
+      "Game"
+    ],
+    "recursionLevel": 2,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  },
+  {
+    "id": "as_fertile_cauldron",
+    "type": "Assistance",
+    "name": "Fertile Cauldron",
+    "color": null,
+    "description": "Protected transformation into usable systems.",
+    "simpleMeaning": "Pressure can be cooked into something livable.",
+    "medicine": "Regenerative transformation.",
+    "poison": "Uncontained transformation.",
+    "collapseLinks": [],
+    "restorationLinks": [],
+    "uiUse": [
+      "recipe_logic",
+      "transformation_layer"
+    ],
+    "gateway": [
+      "Intermediate",
+      "Visual",
+      "Game"
+    ],
+    "recursionLevel": 3,
+    "canonStatus": "Stable",
+    "originAtmosphere": "Cauldron",
+    "version": "0.1"
+  }
+]
