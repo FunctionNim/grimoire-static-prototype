@@ -12,6 +12,7 @@ export function AppShell({ children, dominantColor = "Blue" }: AppShellProps) {
       <nav className="top-nav" aria-label="Primary navigation">
         <Link href="/">Start</Link>
         <Link href="/road">Color Road</Link>
+        <Link href="/abel-symbols">Abel Symbols</Link>
         <Link href="/sophia">Sophia</Link>
         <Link href="/watcher">Watcher</Link>
         <Link href="/gratitude">Leave</Link>
